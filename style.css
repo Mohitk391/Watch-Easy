@@ -50,10 +50,6 @@
     padding: 0.5rem;
 }
 
-.section-border{
-    align-items: center;    
-}
-
 .section button{
     width: 100%;
 }
@@ -62,5 +58,10 @@
     width: 81rem;
 }
 
+.watchlaterbtn{
+    border-radius:0;
+}
 
-
+.categories{
+    cursor: pointer;
+}
