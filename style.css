@@ -1,0 +1,66 @@
+.page-layout{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.main-body{
+    background-color: var(--bg-color);
+    align-items: center;
+    padding: 1rem; 
+    gap: 1.5rem;
+} 
+
+.specialized-banner{
+    width: 81rem;
+    height: 35rem;
+}
+
+.banner-card{
+    background-color: var(--white);
+    overflow: hidden;
+    width: inherit;
+    height: inherit;
+    border-radius: 5px;
+    box-shadow: 0 6px 10px 0 var(--box-shadow);
+}
+
+.banner-text-group{
+    height: 35rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.insidesport.in/wp-content/uploads/2020/07/IPL-2020-5-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);   
+    padding: 6em 5em 7em 7em;
+    gap: 1rem;
+}
+
+.btn-banner{
+    width: fit-content;
+}
+
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.section{
+    gap: 0.3rem;
+    overflow-x: auto;
+    padding: 0.5rem;
+}
+
+.section-border{
+    align-items: center;    
+}
+
+.section button{
+    width: 100%;
+}
+
+.category-section{
+    width: 81rem;
+}
+
+
+
