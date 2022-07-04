@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Watch-Easy.ico"/>
     <title>Watch Easy</title>
     <link rel="stylesheet" href="https://aesthetic-snickerdoodle-9e3a0f.netlify.app/style.css"/>
     <link rel="stylesheet" href="style.css"/>
@@ -12,13 +13,16 @@
 <body>
     <div class="page-layout">
         <nav class="navbar-2">
-            <a href="/" class="logo">WATCH EASY</a>
+            <a href="/index.html" class="logo">WATCH EASY</a>
             <div class="navbar-search">
                 <input class="navbar-searchbar" type="text" placeholder="Search for a video..."/>
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <div class="external-links">
+            <div class="navbar-links flex flex-space-evenly">
                 <button class="btn btn-hover sign-in">Login <i class="fa-solid fa-arrow-right"></i></button>
+                <i class="fa-solid fa-layer-group" title="Playlists"></i>
+                <i class="fa-solid fa-clock" title="Watch-Later"></i>
+                <i class="fa-solid fa-user" title="My Profile"></i>
             </div>
         </nav>
         <div class="main-body flex flex-column">
@@ -35,7 +39,7 @@
             <div class="most-viewed-section">
                 <div class="flex flex-space-between ">
                     <div class="section-title">Must Watch</div>
-                    <a class="all-videos-link" href="/">All Videos...</a>
+                    <a class="all-videos-link" href="/video-listing.html">All Videos...</a>
                 </div>
                 <div class="section flex">
                     <div class="card vertical-card flex video-card flex-column flex-gap-1 flex-center">

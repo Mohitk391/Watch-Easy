@@ -11,7 +11,7 @@
 } 
 
 .specialized-banner, .most-viewed-section,.category-section{
-    width: 80em;
+    width: 90vw;
 }
 
 .specialized-banner{
@@ -90,9 +90,15 @@
     opacity: 1;
 }
 
-.external-links{
+.navbar-links{
+    width:20%;
     align-items: center;
+    font-size: 1.5rem;
     cursor: pointer;
+}
+
+.sign-in:hover{
+    color: var(--bg-primary);
 }
 
 .overlay-layer-2{
