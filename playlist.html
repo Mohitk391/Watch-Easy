@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayLists - Watch Easy</title>
+    <link rel="icon" href="/Watch-Easy.ico"/>
+    <link rel="stylesheet" href="https://aesthetic-snickerdoodle-9e3a0f.netlify.app/style.css"/>
+    <link rel="stylesheet" href="/playlist.css"/>
+    <script src="https://kit.fontawesome.com/3403aa9b31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="page-layout pos-relative">
+        <nav class="navbar-2">
+            <a href="/index.html" class="logo">WATCH EASY</a>
+            <div class="navbar-search">
+                <input class="navbar-searchbar" type="text" placeholder="Search for a video..."/>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="navbar-links flex flex-space-evenly">
+                <button class="btn btn-hover sign-in">Login <i class="fa-solid fa-arrow-right"></i></button>
+                <a href="/playlist.html"><i class="fa-solid fa-layer-group" title="Playlists"></i></a>
+                <a href="/watchlater.html"><i class="fa-solid fa-clock" title="Watch-Later"></i></a>
+                <a href="/profile.html"><i class="fa-solid fa-user" title="My Profile"></i></a>
+            </div>
+        </nav>
+        <main class="playlist-main">
+            <div class="playlist-header flex flex-space-between">
+                <h2>My Playlists</h2>
+                <button class="btn btn-hover create-playlist-button">
+                    Create Playlist <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="playlist-content flex flex-wrap flex-gap-2">
+                <div class="card horizontal-card playlist">
+                    <div class="card-content-horizontal">
+                        <div class="card-title">Playlist 01</div>
+                        <div class="playlist-content-details">10 videos | 34:26 minutes</div>
+                    </div>
+                    <div class="delete-playlist">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+                <div class="card horizontal-card playlist">
+                    <div class="card-content-horizontal">
+                        <div class="card-title">Playlist 01</div>
+                        <div class="playlist-content-details">10 videos | 34:26 minutes</div>
+                    </div>
+                    <div class="delete-playlist">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+                <div class="card horizontal-card playlist">
+                    <div class="card-content-horizontal">
+                        <div class="card-title">Playlist 01</div>
+                        <div class="playlist-content-details">10 videos | 34:26 minutes</div>
+                    </div>
+                    <div class="delete-playlist">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+                <div class="card horizontal-card playlist">
+                    <div class="card-content-horizontal">
+                        <div class="card-title">Playlist 01</div>
+                        <div class="playlist-content-details">10 videos | 34:26 minutes</div>
+                    </div>
+                    <div class="delete-playlist">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+                <div class="card horizontal-card playlist">
+                    <div class="card-content-horizontal">
+                        <div class="card-title">Playlist 01</div>
+                        <div class="playlist-content-details">10 videos | 34:26 minutes</div>
+                    </div>
+                    <div class="delete-playlist">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+                <div class="card horizontal-card playlist">
+                    <div class="card-content-horizontal">
+                        <div class="card-title">Playlist 01</div>
+                        <div class="playlist-content-details">10 videos | 34:26 minutes</div>
+                    </div>
+                    <div class="delete-playlist">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="create-playlist-layer flex flex-center">
+            <div class="create-playlist flex flex-column ">
+                <div class="cp-header flex flex-space-between">
+                    <h2>Create Playlist</h2>
+                    <div class="close flex flex-center"><i class="fa-solid fa-close"></i></div>
+                </div>
+                <div class="cp-content flex flex-column">
+                    <label for="playlist-name">Playlist Name</label>
+                    <input type="text" placeholder="My Playlist" id="playlistName"/>
+                </div>
+                <div class="footer-button flex flex-center">
+                    <button class="btn btn-hover create-button">Create</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
