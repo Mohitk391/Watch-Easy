@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Watch Easy</title>
+    <link rel="icon" href="/Watch-Easy.ico"/>
+    <link rel="stylesheet" href="https://aesthetic-snickerdoodle-9e3a0f.netlify.app/style.css"/>
+    <link rel="stylesheet" href="authenticate.css"/>
+    <script src="https://kit.fontawesome.com/3403aa9b31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="page-layout">
+        <nav class="navbar-2">
+            <a href="/index.html" class="logo">WATCH EASY</a>
+            <div class="navbar-search">
+                <input class="navbar-searchbar" type="text" placeholder="Search for a video..."/>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="navbar-links flex flex-space-evenly">
+                <button class="btn btn-hover sign-in">Login<i class="fa-solid fa-arrow-right"></i></button>
+                <a href="/playlist.html"><i class="fa-solid fa-layer-group" title="Playlists"></i></a>
+                <a href="/watchlater.html"><i class="fa-solid fa-clock" title="Watch-Later"></i></a>
+                <a href="/profile.html"><i class="fa-solid fa-user" title="My Profile"></i></a>
+            </div>
+        </nav>
+        <div class="signup-main flex flex-center">
+            <form class="signup-form flex flex-column flex-center flex-gap-1">
+                <h2 class="form-title">Signup</h2>
+                <div class="name-input flex flex-space-evenly">
+                    <div class="user-name flex flex-column">
+                        <label>First Name</label>
+                        <input type="text" placeholder="John" />
+                    </div>
+                    <div class="user-name flex flex-column">
+                        <label>Last Name</label>
+                        <input type="text" placeholder="Doe" />
+                    </div>
+                </div>
+                <div class="form-input flex flex-column">
+                    <label>Email</label>
+                    <input type="email" placeholder="abc@example.com" />
+                </div>
+                <div class="form-input flex flex-column pos-relative">
+                    <label>Password</label>
+                    <input type="password" placeholder="********" />
+                    <button  id="isPasswordVisible"><i class="fa-solid fa-eye"></i> </button>
+                </div>
+                <div class="extras flex ">
+                    <div class="flex flex-space-between">
+                        <input type="checkbox" id="remember"/> <label for="remember">Remember me</label>             
+                    </div>
+                </div>
+                <button class="btn btn-hover auth-button sign-in">Signup</button>
+                <button class="btn btn-hover auth-button remove-from-wishlist-button">Existing User? Sign In</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
